@@ -4,7 +4,7 @@ public class Expressoes {
     // + - * [/ ou div ] mod
     // + - * / %
 
-    public static void main(String[] args) {
+    public static void executarPlayground() {
         int a = 11, b = 5;
         System.out.println("Expressões Aritméticas");
         System.out.printf("%d + %d = %d\n", a, b, (a + b));
@@ -46,6 +46,7 @@ public class Expressoes {
         System.out.printf("NAO V = %s\n", !true ? "V" : "F");
         System.out.printf("NAO F = %s\n", !false ? "V" : "F");
 
+        // Utilização da classe Utilitária Math
         double sqrt = Math.sqrt(81);
         System.out.println(sqrt);
         System.out.println(Math.pow(2, 6));

@@ -24,7 +24,7 @@ public class Media {
         return 0;        
     }
 
-    public static void main(String[] args) {
+    public static void executarPlayground() {
 
         // Declarar as variaveis em escopo local.
         double n1, n2, n3, n4, m;

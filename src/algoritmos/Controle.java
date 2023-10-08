@@ -3,7 +3,7 @@ package algoritmos;
 import java.util.Scanner;
 
 public class Controle {
-    public static void main(String[] args) {
+    public static void executarPlayground() {
         int valor = 7;
         // TODO: SE/ENTAO
 
@@ -77,6 +77,7 @@ public class Controle {
         System.out.print("C:");
         c = entrada.nextInt();
 
+        // Olha o Fail First aqui
         if ((a < b + c) && (b < a + c) && (c < b + a)) {
             // TODO: definir o tipo
             if (a == b && a == c) {
@@ -90,8 +91,7 @@ public class Controle {
             }
         } else {
             // TODO: Exibir mensagem que os dados nao forma triangulo
-            System.out.printf("%s, %s e %s não formam triangulo.\n",
-                    a, b, c);
+            System.out.printf("%s, %s e %s não formam triangulo.\n", a, b, c);
         }
 
         entrada.close();
